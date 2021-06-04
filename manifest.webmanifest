@@ -1,0 +1,20 @@
+{
+  "manifest_version": 1,
+  "version": "0.0.1",
+  "name": "Île de France, Île d'Europe",
+  "short_name": "IdF-IdE",
+  "description": "Rassemblement de mouvements citoyens pro-européens qui présentent une liste pour les élections régionales en Île-de-France les 20 et 27 juin 2021",
+  "default_locale": "fr",
+  "icons": [
+        {
+            "src":"/android-chrome-192x192.png","sizes":"192x192","type":"image/png"
+        },
+        {
+            "src":"/android-chrome-512x512.png","sizes":"512x512","type":"image/png"
+        }
+    ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#502379",
+  "theme_color": "#502379"
+}

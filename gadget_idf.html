@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr" manifest="gadget_sud.appcache">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sud Gadget</title>
+
+    <link rel="stylesheet" href="lib/material_design_lite.1.3.0.min.css" />
+    <link rel="stylesheet" href="gadget_idf.css" />
+
+    <script src="lib/material_design_lite.1.3.0.min.js"></script>
+    
+    <script src="rsvp.latest.min.js"></script>
+    <script src="renderjs.latest.min.js"></script>
+    <script src="gadget_global.min.js"></script>
+    <script src="gadget_idf.js"></script>
+
+  </head>
+  <body>
+    <div class="idf-layout mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="idf-header mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <h1 class="idf-site-header"><span class="idf-sub-title">Un projet citoyen et solidaire pour vivre autrement</span></h1>
+        </div>
+      </header>
+
+      <main class="idf-page-content mdl-layout__content">
+        <div class="idf-background">
+          <img class="idf-logo-banner" src="img/logo_bar_purple.png" alt="Pace-Nous Citoyens-A Nous La Democratie-Volt" />          
+          
+          <div class="idf-action-bar mdl-grid">
+            <div class="idf-cell mdl-cell mdl-cell--7-col mdl-cell--12-col-phone mdl-shadow--2dp">
+              <img class="idf-cell-image" src="img/poster.jpg" alt="Fabiola CONTI" />
+              <!--h2 class="idf-title idf-image-title">Fabiola CONTI</h2-->
+            </div>
+            <div class="idf-cell mdl-cell mdl-cell--3-col mdl-cell--12-col-phone mdl-shadow--2dp">
+              <div class="idf-cell-wrapper">
+                <h2 class="idf-title idf-button mdl-button mdl-js-button mdl-button--raised mdl-button--accent"><a class="idf-cell-link" href="" download="bulletin.pdf">Bulletin de vote</a></h2>
+                <!--h2 class="idf-title idf-button mdl-button mdl-js-button mdl-button--raised mdl-button--accent"><a href="" download="Profession de foi" class="idf-cell-link">Profession de Foi</a></h2-->
+                <h2 class="idf-title idf-button mdl-button mdl-js-button mdl-button--raised mdl-button--accent"><a class="idf-cell-link" target="_blank" href="https://www.voltfrance.org/donner">Faire un don</a></h2>
+              </div>
+              <p class="idf-text">Nous suivre</p>
+              
+              <div class="idf-link-wrapper">
+                <div class="pb-2 idf-share-align">
+                  <a class="share-button btn" href="https://www.facebook.com/iledefranceiledeurope/">
+                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+              <p class="idf-text">Nous contacter</p>
+              <div class="idf-link-wrapper">
+                <div class="pb-2 idf-share-align">
+                  <a class="share-button btn" href="mailto:contact@iledefrance-iledeurope.fr">
+                    <i class="material-icons" aria-hidden="true">mail_outline</i><span class="material-icon-text">contact@iledefrance-iledeurope.fr</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="idf-content-section">
+          <h2 class="idf-content-headline">Nos têtes des départements</h2>
+          <div class="idf-grid-wrapper">
+            <div class="mdl-grid">
+              <div class="idf-cell mdl-cell mdl-cell--1-col mdl-cell--12-col-phone mdl-shadow--2dp"></div>
+              <div class="idf-cell mdl-cell mdl-cell--2-col mdl-cell--12-col-phone mdl-shadow--2dp">
+                <div class="idf-card-image idf-vdm mdl-card mdl-shadow--2dp">
+                  <div class="mdl-card__title mdl-card--expand"></div>
+                  <div class="mdl-card__actions">
+                    <span class="idf-card-image__filename">Pierre-Louis Lauzet (Val-de-Marne)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="idf-cell mdl-cell mdl-cell--2-col mdl-cell--12-col-phone mdl-shadow--2dp">
+                <div class="idf-card-image idf-sem mdl-card mdl-shadow--2dp">
+                  <div class="mdl-card__title mdl-card--expand"></div>
+                  <div class="mdl-card__actions">
+                    <span class="idf-card-image__filename">Amina Bacar (Seine-et-Marne)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="idf-cell mdl-cell mdl-cell--2-col mdl-cell--12-col-phone mdl-shadow--2dp">
+                <div class="idf-card-image idf-vdo mdl-card mdl-shadow--2dp">
+                  <div class="mdl-card__title mdl-card--expand"></div>
+                  <div class="mdl-card__actions">
+                    <span class="idf-card-image__filename">Adhal Bara (Val-d'Oise)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="idf-cell mdl-cell mdl-cell--2-col mdl-cell--12-col-phone mdl-shadow--2dp">
+                <div class="idf-card-image idf-yvl mdl-card mdl-shadow--2dp">
+                  <div class="mdl-card__title mdl-card--expand"></div>
+                  <div class="mdl-card__actions">
+                    <span class="idf-card-image__filename">Elvire Seka (Yvelines)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="idf-cell mdl-cell mdl-cell--2-col mdl-cell--12-col-phone mdl-shadow--2dp">
+                <div class="idf-card-image idf-ssd mdl-card mdl-shadow--2dp">
+                  <div class="mdl-card__title mdl-card--expand"></div>
+                  <div class="mdl-card__actions">
+                    <span class="idf-card-image__filename">Nora Cherdoud (Seine-Saint-Denis)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="idf-cell mdl-cell mdl-cell--1-col mdl-cell--12-col-phone mdl-shadow--2dp"></div>
+          </div>
+          <div class="mdl-grid">
+              <div class="idf-cell mdl-cell mdl-cell--3-col mdl-cell--12-col-phone mdl-shadow--2dp"></div>
+              <div class="idf-cell mdl-cell mdl-cell--2-col mdl-cell--12-col-phone mdl-shadow--2dp">
+                <div class="idf-card-image idf-hds mdl-card mdl-shadow--2dp">
+                  <div class="mdl-card__title mdl-card--expand"></div>
+                  <div class="mdl-card__actions">
+                    <span class="idf-card-image__filename">Thierry de Bénazé (Hauts-de-Seine)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="idf-cell mdl-cell mdl-cell--2-col mdl-cell--12-col-phone mdl-shadow--2dp">
+                <div class="idf-card-image idf-paris mdl-card mdl-shadow--2dp">
+                  <div class="mdl-card__title mdl-card--expand"></div>
+                  <div class="mdl-card__actions">
+                    <span class="idf-card-image__filename">Fabiola Conti (Paris)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="idf-cell mdl-cell mdl-cell--2-col mdl-cell--12-col-phone mdl-shadow--2dp">
+                <div class="idf-card-image idf-ess mdl-card mdl-shadow--2dp">
+                  <div class="mdl-card__title mdl-card--expand"></div>
+                  <div class="mdl-card__actions">
+                    <span class="idf-card-image__filename">Yasmina Sidi Aissa (Essone)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="idf-cell mdl-cell mdl-cell--3-col mdl-cell--12-col-phone mdl-shadow--2dp"></div>
+          </div>
+        </div>
+        </div>
+
+
+        <div class="idf-content-section idf-content-section-news">
+          <h2 class="idf-content-headline">Les dernières actualités</h2>
+          
+          <div class="idf-card-wide idf-card-portrait mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title">
+              <h3 class="idf-card-header mdl-card__title-text">2021-06-02<br/>C'est parti !</h3>
+            </div>
+            <div class="idf-card-text mdl-card__supporting-text">Nous tractons dans les rues  </div>
+            <div class="mdl-card__menu">
+              <a href="https://www.facebook.com/iledefranceiledeurope/posts/110658734560799" target="_blank" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                <i class="material-icons">share</i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+          
+
+        <footer class="idf-footer-wrapper">
+        <div class="idf-footer-bar">
+          <h2 class="idf-content-headline">Plus d'information sur nos mouvements</h2>
+          <ul class="idf-logo-bar">
+            <li class="idf-logo-bar-entry"><a href="https://www.voltfrance.org/" target="_blank" class="idf-logo-link"><img class="idf-logo-bar-image" src="img/logo.volt.purple.png" alt="Volt France"></a></li>
+            <li class="idf-logo-bar-entry"><a href="https://www.pace-europe.eu/" target="_blank" class="idf-logo-link"><img class="idf-logo-bar-image" src="img/logo.pace.purple.png" alt="Pace Europa"></a></li>
+            <li class="idf-logo-bar-entry"><a href="https://www.nouscitoyens.fr/" target="_blank" class="idf-logo-link"><img class="idf-logo-bar-image" src="img/logo.nous.citoyens.purple.png" alt="Nous Citoyens France"></a></li>
+            <li class="idf-logo-bar-entry"><a href="https://anouslademocratie.fr/" target="_blank" class="idf-logo-link"><img class="idf-logo-bar-image" src="img/logo.anld.purple.png" alt="A Nous La Democratie"></a></li>
+          </ul>
+        </div>
+        <div class="idf-footer">
+          <div class="idf-credits sud-credits-end">
+            <span class="idf-footer-text">© 2021 - Créé par</span>&nbsp;
+            <a class="idf-credits-link" href="https://www.voltlille.fr" title="Volt Lille"><img class="idf-publisher" src="img/volt.min.png" alt="Volt Lille" /></a>
+            <span class="idf-footer-text">,</span>&nbsp;
+            <span class="idf-footer-text">hébergé sur</span>&nbsp;
+            <a class="idf-credits-link" href="https://github.com/VoltEuropa/idf">Github</a>
+            <span class="idf-footer-text">.</span>&nbsp;
+            <span class="idf-footer-text">Fait avec</span>
+            <a class="idf-credits-link" href="https://renderjs.nexedi.com/">RenderJS</a>
+            <span class="">.</span>
+          </div>
+        </div>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
+
+
