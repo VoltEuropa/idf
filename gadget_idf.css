@@ -490,6 +490,12 @@
   height: 26em;
   background: url('img/debat_club_de_press.png') center / cover;
 }
+.idf-card-cafe > .mdl-card__title {
+  color: #fff;
+  height: 26em;
+  background: url('img/cafe.jpg') center / cover;
+}
+
 
 .idf-card-wide > .mdl-card__menu {
   color: #fff;
