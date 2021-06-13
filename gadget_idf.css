@@ -342,6 +342,7 @@
 .mdl-cell .idf-title .idf-cell-link {
   color: #ffffff;
   text-decoration: none;
+  display: block;
 }
 .mdl-cell .idf-cell-image {
   height: 60%;
