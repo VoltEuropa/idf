@@ -496,6 +496,12 @@
   height: 26em;
   background: url('img/cafe.jpg') center / cover;
 }
+.idf-card-lci > .mdl-card__title {
+  color: #fff;
+  height: 26em;
+  background: url('img/debat.jpg') center / cover;
+}
+
 
 
 .idf-card-wide > .mdl-card__menu {
